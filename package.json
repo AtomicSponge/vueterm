@@ -1,0 +1,27 @@
+{
+  "name": "vueterm",
+  "version": "0.0.1",
+  "description": "CLI Vue App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "terminal"
+  ],
+  "author": "Matthew Evans",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.8",
+    "webpack": "^5.65.0"
+  }
+}

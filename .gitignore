@@ -1,0 +1,12 @@
+.npmignore
+package-lock.json
+node_modules/
+
+*.code-workspace
+.vscode/
+
+.bakignore
+*_bak/
+
+build/
+docs/

@@ -1,0 +1,63 @@
+/*
+ * Web Terminal Interface
+ *
+ * Filename:  WebTerm.scss
+ * By:  Matthew Evans
+ * See LICENSE.md for copyright information.
+ * 
+ * Sass variables for terminal specific color settings.
+ * Also contains some global formatting.
+ * Vue specific formatting is in its individual files.
+ *
+ * Note that background color and font settings are
+ * inherited from the HTML body tag.
+ */
+
+/*
+ * Input prompt variables
+ */
+$term_pr_color: #ffcc00;
+$term_cr_color: #ff00ba;
+
+/*
+ * Info bar variables
+ */
+$time_bg_color: #dcdcdc;
+$time_fg_color: #000000;
+$user_bg_color: #000000;
+$user_fg_color: #ffffff;
+$site_bg_color: #87cefa;
+$site_fg_color: #696969;
+
+/*
+ * Mixin to inherit formatting
+ */
+@mixin termstyle() {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/*
+ * Prompt element formatting
+ */
+@mixin prompt() {
+    display: inline;
+    background-color: inherit;
+    color: $term_pr_color;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/*
+ * Info bar formatting
+ */
+@mixin infobar($bg_color, $fg_color) {
+    background-color: $bg_color;
+    color: $fg_color;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 5px;
+    padding-bottom: 2px;
+}
