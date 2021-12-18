@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "git+https://github.com/wtfsystems/vueterm.git"
   },
   "keywords": [
     "cli",
@@ -17,6 +17,10 @@
   ],
   "author": "Matthew Evans",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtfsystems/vueterm/issues"
+  },
+  "homepage": "https://github.com/wtfsystems/vueterm#readme",
   "dependencies": {
     "vue": "^2.6.14"
   },
